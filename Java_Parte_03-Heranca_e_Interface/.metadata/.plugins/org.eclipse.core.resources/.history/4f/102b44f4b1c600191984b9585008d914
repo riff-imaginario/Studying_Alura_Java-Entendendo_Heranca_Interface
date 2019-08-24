@@ -13,8 +13,8 @@ public class Gerente extends Funcionario {
 		return false;
 	}
 	
-	// Sobrescrita do getBonificacao da classe Funcionario
-	// Sobrescrita: Mesma assinatura
+	// Reescrita do getBonificacao da classe Funcionario
+	// Reescrita: Mesma assinatura
 	public double getBonificacao() {
 		return super.getBonificacao() + super.getSalario();
 	}
