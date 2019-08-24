@@ -5,7 +5,6 @@ public class Funcionario {
 	private String cpf;
 	protected double salario;
 	
-	// Assinatura: metodo publico, retorna um double, nome getBonificacao, sem nenhum parametro.
 	public double getBonificacao() {
 		return this.getSalario() * .1;
 	}
